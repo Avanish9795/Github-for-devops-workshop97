@@ -14,3 +14,10 @@ git log                         # Full commit history
 git log --oneline               # Compact history
 git diff                        # Unstaged changes
 git diff --staged               # Staged changes
+
+git remote -v                          # View remotes
+git remote add origin <url>            # Add remote
+git remote set-url origin <url>        # Change remote URL
+git push origin main                   # Push to remote
+git pull origin main                   # Pull from remote
+git fetch                              # Fetch without merging
