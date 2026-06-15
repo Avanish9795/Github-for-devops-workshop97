@@ -21,3 +21,9 @@ git remote set-url origin <url>        # Change remote URL
 git push origin main                   # Push to remote
 git pull origin main                   # Pull from remote
 git fetch                              # Fetch without merging
+
+
+git status                      # Check file status
+git add <file>                  # Stage a file
+git add .                       # Stage all changes
+git commit -m "message"         # Commit staged changes
